@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Secretária vintage com compartimento duplo, em nogueira, dalqui nogueira La Redoute Interieurs | La Redoute
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/85e7e955b0.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=block"
+        rel="stylesheet">
+
+<body>
+    <div class="golden-strip"></div>
+    <div class="blue-strip"></div>
+    <div class="container">
+        <div class="logo">
+            <a href="./index.html">
+                <img class="responsive-image" src="imgs/laredoute_logo.jpg" alt="laredoute_logo">
+            </a>
+        </div>
+        <div class="side-divs">
+            <div class="search-bar"></div>
+            <nav class="navbar">
+                <div style="margin-left: -25px;">
+                    <a href="#">
+                        <img src="imgs/hamburger.jpg" alt="menu">
+                    </a>
+                </div>
+                <ul class="menu-items">
+                    <li><a style="color: red;" href="#">Baixa de Preço</a></li>
+                    <li><a href="#">Têxtil-Lar</a></li>
+                    <li><a href="product_list.html">Mobiliário</a></li>
+                    <li><a href="#">Moda & Calçado</a></li>
+                    <li><a href="#">Outlet</a></li>
+                    <li><a href="#">Business</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <hr style="border: 1px solid #002D83; margin-bottom: 20px;">
+    <div class="container">
+        <div class="canvas">
+            <canvas id="meuCanvas" style="border-radius: 10px;"></canvas>
+        </div>
+        <div class="options">
+            <h2>La Redoute / Móveis / Escritório / Secretárias</h2>
+            <h1>Secretária vintage com compartimento duplo, em <span id="material_txt">nogueira</span></h1>
+            <div style="margin-top: 40px;" class="container">
+
+                <div class="button-container" style="margin-left: 30px;">
+                    <button class="button" id="btn_play_pause">
+                        <i class="fa-solid fa-pause fa-xl"></i>
+                        <label class="fa-regular">PAUSAR ROTACAO</label></button>
+                    <button class="button" id="btn_slow_fast">
+                        <i class="fa-solid fa-arrow-rotate-left fa-xl"></i>
+                        <label class="fa-regular">Rodar para esquerda</label>
+                    </button>
+                </div>
+
+                <div class="button-container" style="margin-left: -20px;">
+                    <button style="margin-left: 35px;" class="button" id="btn_color_white">
+                        <i class="fa-regular fa-moon fa-xl"></i>
+                        <label class="fa-regular">ATIVAR MODO NOTURNO</label>
+                    </button>
+                    <div style="margin-left: 35px;" class="slider">
+                        <input autocomplete="off" type="range" id="colorSlider" min="0" max="5" value="0">
+                        <label class="fa-regular" id="textBulb">LAMPADA: AMARELA</label>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button class="button" id="btn_bulb_on">
+                        <i class="fa-solid fa-toggle-on fa-xl"></i>
+                        <label class="fa-regular" id="textBulb">Candeeiro: Ligado</label>
+                    </button>
+                    <div class="dropdown">
+                        <button class="button fa-regular dropbtn" id="btn_material"
+                            style="font-family: 'Poppins',Arial,sans-serif;font-size: 20px;">
+                            <p style="font-size: medium;">MATERIAL</p>
+                            <label class="fa-regular" id="textMaterial">Material: Nogueira</label>
+                        </button>
+                        <div class="dropdown-content">
+                            <div id="pinho"><p style="font-size: medium; text-align: center;">Pinho</p></div>
+                            <div id="nogueira"><p style="font-size: medium; text-align: center;">Nogueira</p></div>
+                            <div id="carvalho"><p style="font-size: medium; text-align: center;">Carvalho</p></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button-container">
+                    <button class="button fa-regular" style="font-family: 'Poppins',Arial,sans-serif;font-size: 22px; fon"
+                        id="btn_gavetas">
+                        <label class="fa-regular" id="textBulb">ABRIR / FECHAR</label>
+                        <p style="font-size: medium;">GAVETAS</p>
+                    </button>
+                    <button class="button fa-regular" id="btn_portas"
+                        style="font-family: 'Poppins',Arial,sans-serif;font-size: 20px;">
+                        <label class="fa-regular" id="textBulb">ABRIR / FECHAR</label>
+                        <p style="font-size: medium;">PORTAS</p>
+                    </button>
+                </div>
+
+            </div>
+
+            <img style="margin-left: 45px; margin-top: 10px;" src="imgs/entrega_plus.jpg" alt="entrega plus">
+
+            <a href="#">
+                <div class="juntar-carrinho"></div>
+            </a>
+
+            <div class="aviso">
+                <p>pode trocar ou devolver até 31 de janeiro</p>
+            </div>
+
+            <div class="container-bottom">
+                <div class="envio"><a href="#">
+                        <p>envio grátis</p>
+                    </a></div>
+                <div class="devolucao"><a href="#">
+                        <p>devolução grátis</p>
+                    </a></div>
+            </div>
+        </div>
+    </div>
+
+    <div><img class="responsive-image" src="imgs/description.jpg" alt="description"></div>
+    <div><img class="responsive-image" src="imgs/also_liked.jpg" alt="also_liked"></div>
+    <div><img class="responsive-image" src="imgs/last_viewed.jpg" alt="last_viewed"></div>
+    <div><img class="responsive-image" src="imgs/sub_footer_2.jpg" alt="sub_footer"></div>
+    <div><img class="responsive-image" src="imgs/footer.jpg" alt="footer"></div>
+
+    <script async src="/node_modules/unpkg.com_es-module-shims@1.8.0_dist_es-module-shims.js"></script>
+    <script type="importmap">
+    {
+      "imports": {
+        "three": "/node_modules/three/build/three.module.js",
+        "three/addons/": "/node_modules/three/examples/jsm/"
+      }
+    }
+    </script>
+    <script type="module" src="./main.js"></script>
+
+</body>
+
+</html>
